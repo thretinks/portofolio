@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a468465-1e2a-469f-b1f5-c1745900272d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/assets/images/dprd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/erinjani.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/lhkpn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Timeline/timeline.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/global.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +56,7 @@
       <option name="presentableId" value="Default" />
       <updated>1751287057168</updated>
       <workItem from="1751287058329" duration="20003000" />
-      <workItem from="1751697786390" duration="1559000" />
+      <workItem from="1751697786390" duration="2047000" />
     </task>
     <servers />
   </component>

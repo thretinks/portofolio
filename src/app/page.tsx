@@ -190,7 +190,6 @@ export default function Home() {
                           animateBy="words"
                           direction="top"
                           className="text-xl mb-8 text-white"
-                          style={{ textAlign: 'justify' }}
                       />
                       <div className="fle">
                           <AnimatedContent
