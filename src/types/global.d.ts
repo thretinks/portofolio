@@ -1,4 +1,4 @@
-export { };
+import '@react-three/fiber';
 
 declare module '*.glb';
 declare module '*.png';
@@ -17,7 +17,4 @@ declare global {
     }
 }
 
-- src/vite-env.d.ts
-/// <reference types="vite/client" />
-declare module '*.glb';
-declare module '*.png';
+export {};
