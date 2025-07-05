@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unknown-property */
 "use client";
+
 import { useEffect, useRef, useState } from "react";
 import { Canvas, extend, useFrame } from "@react-three/fiber";
 import {
@@ -283,15 +284,17 @@ function Band({ maxSpeed = 50, minSpeed = 0 }: BandProps) {
         </RigidBody>
       </group>
       <mesh ref={band}>
+        {/* @ts-ignore */}
         <meshLineGeometry />
+        {/* @ts-ignore */}
         <meshLineMaterial
-          color="white"
-          depthTest={false}
-          resolution={isSmall ? [1000, 2000] : [1000, 1000]}
-          useMap
-          map={texture}
-          repeat={[-4, 1]}
-          lineWidth={1}
+            color="white"
+            depthTest={false}
+            resolution={isSmall ? [1000, 2000] : [1000, 1000]}
+            useMap
+            map={texture}
+            repeat={[-4, 1]}
+            lineWidth={1}
         />
       </mesh>
     </>

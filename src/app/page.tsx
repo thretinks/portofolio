@@ -11,6 +11,7 @@ import {Timeline} from "@/components/Timeline/timeline";
 import TrueFocus from "@/components/TrueFocus/TrueFocus";
 import {color} from "motion-dom";
 
+
 export default function Home() {
     const data = [
         {

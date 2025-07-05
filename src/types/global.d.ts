@@ -1,7 +1,5 @@
-import '@react-three/fiber';
-
-declare module '*.glb';
-declare module '*.png';
+import { MeshLineGeometry, MeshLineMaterial } from 'meshline';
+import { ThreeElements } from '@react-three/fiber';
 
 declare module 'meshline' {
     export const MeshLineGeometry: any;
@@ -11,8 +9,20 @@ declare module 'meshline' {
 declare global {
     namespace JSX {
         interface IntrinsicElements {
-            meshLineGeometry: any;
-            meshLineMaterial: any;
+            meshLineGeometry: ThreeElements['mesh'] & {
+                geometry?: any;
+                args?: any;
+            };
+            meshLineMaterial: ThreeElements['material'] & {
+                attach?: string;
+                color?: string;
+                depthTest?: boolean;
+                resolution?: [number, number];
+                lineWidth?: number;
+                useMap?: boolean;
+                map?: any;
+                repeat?: [number, number];
+            };
         }
     }
 }
